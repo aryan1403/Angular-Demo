@@ -1,0 +1,14 @@
+<h1>Hello World</h1>
+<h2>hey</h2>
+
+<h3></h3>
+
+<ul>
+  <li *ngFor="let name of names | async" >
+    name: {{name.name}},
+    age: {{name.age}}
+  </li>
+</ul>
+
+
+<div *ngIf="errorMessage"> {{errorMessage}} </div> 
